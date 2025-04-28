@@ -30,3 +30,8 @@ data types:
 console.log(typeof null)
 
 console.log(typeof undefined)
+
+
+let num_id = 76;
+const result = num_id + 4;
+console.log(result);

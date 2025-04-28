@@ -13,6 +13,20 @@ let is_logged_in = true     // this is boolean data types
 /*
 data types:
 --------------------
-number => range 2 to the power of 53
-bigInt => 
+    number => range 2 to the power of 53
+    bigInt => 
+    string => ""
+    boolean => true / false
+    null => stand alone value (reprenstation of empty value) example -> suppose we request to server that i want to know the temprature and as a result he will not give value of zero (suppose we getting issue in server, and if he return the value of zero as a temparature then the value is wrong in that case we prefer null.)
+    undefined => 
+    empty string is another and null is another, both are diffrent.
+    symbol => used for uniqque
+
+
+
+    object => non-primitive data types
 */
+
+console.log(typeof null)
+
+console.log(typeof undefined)

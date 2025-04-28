@@ -33,5 +33,8 @@ console.log(typeof undefined)
 
 
 let num_id = 76;
-const result = num_id + 4;
+const result = num_id + 4;      // here plus sign adding with the varibale num_id, result => 80
 console.log(result);
+
+const result1 = num_id + "435";   // here plus sign making him concate with the variable that is num_id, result => 76435
+console.log(result1);

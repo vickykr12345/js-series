@@ -23,6 +23,16 @@ let low_score1 = false;
 let low_score_get1 = Number(low_score1);
 console.log(low_score_get1); // result => 0, because low_score1 varibale is boolean and in boolean true is 1 and false is 0
 
-let is_logged_in = "";
+let is_logged_in = function (){};
 let iss_logged_in = Boolean(is_logged_in);
 console.log(iss_logged_in); // result => true ; when we check with empty string they give the answer of false 
+/*
+    falsy values => 0, -0, empty string, null, undefined, nan and 0n
+    truly value => 1, [empty array], {empty object}, empty function,
+        note: we can also get result as true when we write 0, -1 or even false as a string.
+*/
+
+let some_number = 7645;
+let result_some_number = String(some_number);
+console.log(result_some_number);
+console.log(typeof result_some_number);
